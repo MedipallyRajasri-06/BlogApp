@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:5173", 
+    origin: process.env.FRONTEND_URL || ["http://localhost:5173", "https://blog-app-git-main-medipallyrajasri-06s-projects.vercel.app/"],
     credentials: true, 
   })
 );
