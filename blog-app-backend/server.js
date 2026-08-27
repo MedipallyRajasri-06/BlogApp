@@ -18,6 +18,7 @@ app.use((req, res, next) => {
 
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://blog-app-sigma-puce.vercel.app",
   "https://blog-app-git-main-medipallyrajasri-06s-projects.vercel.app"
 ];
 if (process.env.FRONTEND_URL) {
